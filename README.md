@@ -6,11 +6,9 @@
 
 ## 啟用 GitHub Pages
 
-1. 打開此儲存庫的 **Settings**。
-2. 左側選 **Pages**。
-3. 在 **Build and deployment** 裡，**Source** 選 **Deploy from a branch**。
-4. **Branch** 選 `main`，資料夾選 **`/ (root)`**，然後儲存。
-5. 等部署完成。網站位址是：
+第一次啟用時，先到 **Settings → Pages**，在 **Build and deployment** 裡把 **Source** 設成 **GitHub Actions**。
+
+合併到 `main` 之後，打開 **Actions**。推送通常會自動跑 **Deploy GitHub Pages**；若沒有開始，在該工作流程按 **Run workflow** 手動執行。部署完成後，網站位址是：
 
 <https://breezyjack459.github.io/bible-verse-404-/>
 
